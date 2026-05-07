@@ -241,12 +241,6 @@ Optimize / Kill Process
 
 Store screenshots inside:
 
-```text
-screenshots/
-```
-
-## 📸 Screenshots
-
 ### Top Monitoring
 
 ![Top Monitoring](screenshots/top-monitoring.png)
