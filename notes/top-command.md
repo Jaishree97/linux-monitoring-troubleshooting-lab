@@ -1,30 +1,49 @@
 # Top Command Notes
 
 ## Purpose
-The `top` command is used for real-time system monitoring.
+The `top` command is used for real-time monitoring of Linux system resources and running processes.
 
-## What It Shows
+## Command
+
+```bash
+top
+```
+
+## Information Displayed
+
 - CPU usage
 - Memory usage
-- Running processes
 - Load average
+- Running processes
 - Process IDs (PID)
 
-## Useful Keys
+## Important Fields
+
+| Field | Meaning |
+|---|---|
+| PID | Process ID |
+| USER | Process owner |
+| %CPU | CPU utilization |
+| %MEM | Memory usage |
+| TIME+ | CPU time consumed |
+
+## Useful Shortcuts
 
 | Key | Function |
 |---|---|
 | P | Sort by CPU |
 | M | Sort by Memory |
 | k | Kill process |
-| r | Renice process |
-| q | Quit top |
+| r | Change priority |
+| q | Quit |
 
-## Example
+## Troubleshooting Use Case
 
-```bash
-top
-```
+Used to identify:
+- high CPU processes
+- memory consuming applications
+- stuck or hung processes
 
 ## Learning
-Used for identifying high CPU or memory consuming processes.
+
+Learned how to monitor Linux processes and analyze server load using `top`.

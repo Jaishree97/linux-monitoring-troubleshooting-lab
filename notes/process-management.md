@@ -1,34 +1,42 @@
 # Process Management Notes
 
-## Commands Used
-
-### View Processes
+## View Processes
 
 ```bash
 ps aux
 ```
 
-### Sort by CPU Usage
+## Sort by CPU Usage
 
 ```bash
 ps aux --sort=-%cpu
 ```
 
-### Kill Process
+## Kill Process
 
 ```bash
 kill -9 PID
 ```
 
-### Kill by Name
+## Kill by Process Name
 
 ```bash
 pkill process_name
 ```
 
+## Generate CPU Load
+
+```bash
+yes > /dev/null &
+```
+
+## Troubleshooting Use Case
+
+Used for:
+- stopping unwanted processes
+- reducing CPU load
+- managing running applications
+
 ## Learning
 
-Process management helps in:
-- troubleshooting server issues
-- stopping stuck processes
-- reducing resource usage
+Learned how to manage Linux processes and troubleshoot high CPU usage.
