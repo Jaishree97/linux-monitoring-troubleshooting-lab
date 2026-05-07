@@ -237,7 +237,7 @@ Optimize / Kill Process
 
 ---
 
-# 📸 Screenshots
+## 📸 Screenshots
 
 Store screenshots inside:
 
