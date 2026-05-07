@@ -36,9 +36,28 @@ The lab simulates:
 linux-monitoring-troubleshooting-lab/
 │
 ├── README.md
+│
 ├── screenshots/
-├── commands/
-└── notes/
+│   ├── top-monitoring.png
+│   ├── vmstat-output.png
+│   ├── free-memory.png
+│   ├── df-output.png
+│   ├── du-analysis.png
+│   └── process-troubleshooting.png
+│
+├── notes/
+│   ├── top-command.md
+│   ├── vmstat-notes.md
+│   ├── memory-monitoring.md
+│   ├── disk-monitoring.md
+│   ├── process-management.md
+│   └── troubleshooting-workflow.md
+│
+└── scripts/
+    ├── cpu-load.sh
+    ├── memory-check.sh
+    ├── disk-usage.sh
+    └── cleanup.sh
 ```
 
 ---
@@ -237,7 +256,7 @@ Optimize / Kill Process
 
 ---
 
-## 📸 Screenshots
+# 📸 Screenshots
 
 Store screenshots inside:
 
