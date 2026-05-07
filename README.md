@@ -81,7 +81,7 @@ This project helps understand:
 ## 1️⃣ Connect to AWS EC2
 
 ```bash
-ssh -i "linux-key.pem" ec2-user@<public-ip>
+ssh -i "linux-key.pem" ec2-user@18.216.66.3
 ```
 
 ---
@@ -245,13 +245,41 @@ Store screenshots inside:
 screenshots/
 ```
 
-Recommended screenshots:
-- top monitoring
-- vmstat output
-- free -h output
-- df -h output
-- du analysis
-- process troubleshooting
+## 📸 Screenshots
+
+### Top Monitoring
+
+![Top Monitoring](screenshots/top-monitoring.png)
+
+---
+
+### VMStat Output
+
+![VMStat Output](screenshots/vmstat-output.png)
+
+---
+
+### Free Memory Output
+
+![Free Memory](screenshots/free-memory.png)
+
+---
+
+### DF Output
+
+![DF Output](screenshots/df-output.png)
+
+---
+
+### DU Analysis
+
+![DU Analysis](screenshots/du-analysis.png)
+
+---
+
+### Process Troubleshooting
+
+![Process Troubleshooting](screenshots/process-troubleshooting.png)
 
 ---
 
