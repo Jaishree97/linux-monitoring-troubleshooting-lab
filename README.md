@@ -54,9 +54,6 @@ linux-monitoring-troubleshooting-lab/
 │   └── troubleshooting-workflow.md
 │
 └── scripts/
-    ├── cpu-load.sh
-    ├── memory-check.sh
-    ├── disk-usage.sh
     └── cleanup.sh
 ```
 
