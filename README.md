@@ -293,6 +293,20 @@ Store screenshots inside:
 
 ---
 
+# Cleanup Script
+
+A simple Bash cleanup script was created to:
+- stop CPU load generation processes
+- remove temporary test files
+- clean the troubleshooting environment
+
+Location:
+
+```bash
+scripts/cleanup.sh
+```
+---
+
 # 🔥 Key Learnings
 
 - Linux server monitoring
